@@ -3,5 +3,17 @@ Notes on the original read through of task.
   - play with jsfiddle examples and skim highcharts
   - probably use pug for templating.
 
-
+TODO:
+  create server
+  render a single view
+  read about grunt/gulp
+  create a grunt/gulp task to parse csv data and serve json
+  ALL json is served? create template view to display all (simply)
+  create a grunt/gulp task to serve single state 
+  create a template for single state 
+  read about high charts / play with codepen 
+  display highcharts on page 
+  style to specifications
+  refactor
+  
   
