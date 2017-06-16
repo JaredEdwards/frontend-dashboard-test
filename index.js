@@ -4,7 +4,7 @@ const parser = require('body-parser');
 const app = express();
 const port = 8080;
 
-app.set('view engine', 'hbs')
+app.set('view engine', 'pug')
 app.use( parser.json() );
 app.use(parser.urlencoded({extended: true}));
 

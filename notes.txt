@@ -7,7 +7,7 @@ TODO:
   create server
   render a single view
   read about grunt/gulp
-  create a grunt/gulp task to parse csv data and serve json
+  create a grunt/gulp task to parse csv data and serve json ( Gulp webserver?)
   ALL json is served? create template view to display all (simply)
   create a grunt/gulp task to serve single state 
   create a template for single state 
