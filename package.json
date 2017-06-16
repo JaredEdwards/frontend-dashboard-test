@@ -4,7 +4,8 @@
   "description": "frontend test for Morning Consult",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "hbs": "^4.0.1",
+    "nodemon": "^1.11.0",
     "pug": "^2.0.0-rc.2"
   }
 }
