@@ -1,0 +1,7 @@
+Notes on the original read through of task. 
+  - see if webpack, grunt, or gulp is easist for csv -> json
+  - play with jsfiddle examples and skim highcharts
+  - probably use pug for templating.
+
+
+  
