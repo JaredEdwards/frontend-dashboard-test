@@ -62,7 +62,8 @@ $(function () {
     $('#mapContainer').highcharts('Map', {
 
         title : {
-            text : 'Choose a state to learn more'
+            text : 'CHOOSE A STATE TO LEARN MORE',
+            style: {'color': '#fff'}
         },
 
         subtitle : {
@@ -80,19 +81,19 @@ $(function () {
             enabled: true
         },
         chart: { 
-          backgroundColor: 'rgba(255, 255, 255, 0.1)'
+          backgroundColor: '#0d47a1'
          },
-        colorAxis: {
-                min: 0,
-                minColor: "#ffffff",
-                maxColor: "#ffffff",
-                labels: {
-                    format: "{value:.0f}%",
-                    style: {
-                        fontSize: "13px"
-                    }
-                }
-            },
+        // colorAxis: {
+        //         min: 0,
+        //         minColor: "#ffffff",
+        //         maxColor: "#ffffff",
+        //         labels: {
+        //             format: "{value:.0f}%",
+        //             style: {
+        //                 fontSize: "13px"
+        //             }
+        //         }
+        //     },
 				credits: { enabled: false },
         exporting: { enabled: false },
         series : [{
@@ -101,10 +102,17 @@ $(function () {
             mapData: Highcharts.maps['countries/us/us-all'],
             joinBy: 'hc-key',
             name: '',
-            states: { },
+            states: {
+              hover: { 
+                color: '#ccc'
+                }
+            },
             dataLabels: { 
               enabled: true,
-              backgroundColor: '#fff',
+              backgroundColor: 'rgba(255, 255, 255, 0.1)',
+              style: {
+                  textTransform: 'uppercase'
+              }
              }
         }, {
             name: 'Separators',
@@ -112,7 +120,7 @@ $(function () {
             data: Highcharts.geojson(Highcharts.maps['countries/us/us-all'], 'mapline'),
             color: 'white',
             showInLegend: false,
-            enableMouseTracking: true
+            enableMouseTracking: false
         }]
     });
 });

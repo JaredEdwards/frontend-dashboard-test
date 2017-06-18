@@ -47,14 +47,9 @@ body {
 }
 
 #mapContainer {
-    height: 500px; 
-    min-width: 310px; 
-    max-width: 800px; 
     margin: 0 auto; 
-}
-
-.highcharts-container {
-  background-color: #0d47a1;  
+    background-color: #0d47a1;
+    color: #fff;
 }
 
 .loading {
