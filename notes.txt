@@ -17,3 +17,11 @@ TODO:
   refactor
   
   
+   separate each block into own pug file
+   
+   create better file structure
+   
+   prettier all files
+   
+   
+  
