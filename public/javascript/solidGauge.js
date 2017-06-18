@@ -6,7 +6,7 @@ $(function () {
         title: "top",
         pane: {
           center: ["50%", "50%"],
-          size: "100%",
+          size: "25%",
           startAngle: 0,
           endAngle: 360,
           background: {
