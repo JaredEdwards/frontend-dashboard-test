@@ -7,11 +7,10 @@
 
 3. Once inside the directory run '$ npm install'
 
-4. Upon completion of the installation, run '$ gulp'
 
-5. Once the gulp task is completed run '$ npm start'
+4. Once the gulp task is completed run '$ npm start'
 
-6. Open a new browser window and navigate to 'http://localhost:8080'
+5. Open a new browser window and navigate to 'http://localhost:8080'
 
 
 # Front-End Developer Take-Home Coding Test
