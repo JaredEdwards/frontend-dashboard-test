@@ -25,6 +25,7 @@ body {
   color: #fff;
   font-weight: extra-bold;
   font-size: 40px;
+  padding-left: 80px;
 }
 
 .map {
@@ -34,7 +35,14 @@ body {
 
 .footer {
   height: 32%;
+  font-weight: lighter;
   text-align: center;
-  background-color: #fff;
+  background-color: #fff;  
+}
+
+.footer p {
+  color: #8c8c8c;
+  font-weight: 100;
+  font-size: 14px;
 }
 
