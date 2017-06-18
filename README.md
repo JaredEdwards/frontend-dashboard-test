@@ -1,3 +1,18 @@
+# Solution 1 
+
+1. Change into a directory of your choosing and then run 
+  '$ git clone git@github.com:JaredEdwards/frontend-dashboard-test.git'
+  
+2. Change into the new directory using '$ cd frontend-dashboard-test'
+
+3. Once inside the directory run '$ npm install'
+
+4. Upon completion of the installation, run '$ gulp'
+
+5. Once the gulp task is completed run '$ npm start'
+
+6. Open a new browser window and navigate to 'http://localhost:8080'
+
 
 # Front-End Developer Take-Home Coding Test
 
