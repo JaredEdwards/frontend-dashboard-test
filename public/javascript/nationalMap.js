@@ -83,12 +83,6 @@ $(function () {
         chart: { 
           backgroundColor: '#0d47a1'
          },
-        colorAxis: {
-                min: 0,
-                minColor: "#ffffff",
-                maxColor: "#ffffff"
-                }
-            },
 				credits: { enabled: false },
         exporting: { enabled: false },
         series : [{
