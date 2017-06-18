@@ -5,12 +5,17 @@ html
        include ../style.css
      title= 'State Poll'
      meta(name="viewport" content="width=device-width, initial-scale=1")
+     link(href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet")
   body
-    block banner
-      h1.banner name
-    block image
-      h4 this is clickable map
-    block map
-      content here
-    block footer
+    .banner
+      block banner
+        h3 name
+    .img
+      h1.heading-text Stock photos of nice mountaints for #{America}
+    .map
+      block map
+        h3 the clickable High Charts needs to go here
+    .footer
+      block footer
+        
       
