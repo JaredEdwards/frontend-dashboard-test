@@ -5,13 +5,21 @@ html
        include ../style.css
      title= 'State Poll'
      meta(name="viewport" content="width=device-width, initial-scale=1")
+     
      link(href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet")
+     
      script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
+     
      script(src="http://code.highcharts.com/highcharts.js")
-     script(src="http://code.highcharts.com/modules/boost.src.js")
-     script(src="http://code.highcharts.com/modules/solid-gauge.src.js")
-     script(src="http://code.highcharts.com/modules/solid-gauge.js")
+     script(src="http://code.highcharts.com/maps/modules/map.js")
+     
+     script(src="http://code.highcharts.com/mapdata/countries/us/us-all.js")
+     
+     script(src="http://code.highcharts.com/highcharts-more.js")
+     script(src="https://code.highcharts.com/modules/solid-gauge.js")
      script(src="../javascript/solidGauge.js")
+     
+     
   body
     .banner
       block banner
@@ -20,7 +28,6 @@ html
       h1.heading-text Stock Photos of Nice Mountains For #{America}
     .map
       block map
-        h3 the clickable High Charts needs to go here
     .footer
       block footer
         

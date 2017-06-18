@@ -39,7 +39,7 @@ $(function () {
               enabled: true,
               borderWidth: 0,
               borderColor: "rgba(0,0,0,0)",
-              useHTML: true
+              useHTML: !0
             }
           }
       }
