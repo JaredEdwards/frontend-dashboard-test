@@ -3,14 +3,14 @@ $(function () {
     // General gauge options
     var gaugeOptions = {
         chart: { type: 'solidgauge' },
-        title: "top",
+        title: null,
         pane: {
           center: ["50%", "50%"],
           size: "100%",
           startAngle: 0,
           endAngle: 360,
           background: {
-            backgroundColor: "#8c8c8c",
+            backgroundColor: "#fff",
             innerRadius: "74%",
             outerRadius: "100%",
             shape: "arc",
@@ -19,7 +19,7 @@ $(function () {
         },
         tooltip: { enabled: false },
         yAxis: {
-          stops: [ [.1, "#ffc107"] ],
+          stops: [ [.1, "#e55745"] ],
           minorTickInterval: null,
           tickWidth: 0,
           title: { enabled: false },
@@ -36,7 +36,7 @@ $(function () {
           solidgauge: {
             innerRadius: "74%",
             dataLabels: {
-              enabled: true,
+              enabled: false,
               borderWidth: 0,
               borderColor: "rgba(0,0,0,0)",
               useHTML: !0
@@ -54,7 +54,7 @@ $(function () {
         },
 
         series: [{
-          data: [ 60 ] 
+          data: [ 80 ] 
         }]
 
     }));
